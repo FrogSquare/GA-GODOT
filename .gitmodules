@@ -4,3 +4,6 @@
 [submodule "godot_headers"]
 	path = godot_headers
 	url = https://github.com/GodotNativeTools/godot_headers.git
+[submodule "GA-SDK-CPP"]
+	path = GA-SDK-CPP
+	url = https://github.com/GameAnalytics/GA-SDK-CPP.git

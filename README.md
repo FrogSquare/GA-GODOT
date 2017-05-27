@@ -7,9 +7,25 @@ Still in development state.
 ```
 $ git clone https://github.com/FrogSquare/GA-GODOT.git
 
+$ cd GA-GODOT
+
 $ git submodule update --init
 ```
 
+# Building GameAnalytics SDK (Linux 64Bit)
+```
+$ cd GA-SDK-CPP
+
+$ ./build.sh -t linux-x64-shared
+
+$ cp export/linux-x64-shared/Release/libGameAnalytics.so ../libs/
+
+$ cd ..
+```
+
+Now to create a GDNativie library follow: http://frogsquare.com/post/160868714645/gdnative-tutorial-cpp
+
+# API 
 ```
 init(String key, String secret);
 set_gender(int flag) Male = 1, Female = 2;
