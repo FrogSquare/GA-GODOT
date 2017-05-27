@@ -3,6 +3,13 @@
 
 Still in development state.
 
+# Cloning Repo
+```
+$ git clone https://github.com/FrogSquare/GA-GODOT.git
+
+$ git submodule update --init
+```
+
 ```
 init(String key, String secret);
 set_gender(int flag) Male = 1, Female = 2;
